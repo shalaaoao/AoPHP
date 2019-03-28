@@ -1,0 +1,25 @@
+{
+    "name": "shalaaoao/aophp",
+    "description": "shalaaoao's php frame",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shalaaoao",
+            "email": "605536038@qq.com"
+        }
+    ],
+    "require": {
+        "noahbuscher/macaw": "dev-master",
+        "biaoqianwo/simple-pdo": "^1.2"
+    },
+    "autoload": {
+       "classmap": [
+           "controllers",
+           "models"
+       ],
+        "psr-4": {
+            "AoPHP\\": "/"
+        }
+    }
+}
