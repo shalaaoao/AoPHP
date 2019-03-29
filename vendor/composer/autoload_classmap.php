@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'AoPHP\\Controllers\\Users' => $baseDir . '/controllers/Users.php',
+    'AoPHP\\Controllers\\TestsController' => $baseDir . '/controllers/TestsController.php',
+    'AoPHP\\Controllers\\UsersController' => $baseDir . '/controllers/UsersController.php',
     'AoPHP\\Models\\User' => $baseDir . '/models/Users.php',
 );

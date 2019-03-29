@@ -2,7 +2,7 @@
 namespace AoPHP\Controllers;
 use AoPHP\Models\User;
 
-class Users
+class UsersController
 {
     public function index()
     {

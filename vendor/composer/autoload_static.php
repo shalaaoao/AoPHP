@@ -29,12 +29,13 @@ class ComposerStaticInit34e7039e1ff0f68807d6ce146c84c7b8
         ),
         'AoPHP\\' => 
         array (
-            0 => '/',
+            0 => __DIR__ . '/../..' . '/',
         ),
     );
 
     public static $classMap = array (
-        'AoPHP\\Controllers\\Users' => __DIR__ . '/../..' . '/controllers/Users.php',
+        'AoPHP\\Controllers\\TestsController' => __DIR__ . '/../..' . '/controllers/TestsController.php',
+        'AoPHP\\Controllers\\UsersController' => __DIR__ . '/../..' . '/controllers/UsersController.php',
         'AoPHP\\Models\\User' => __DIR__ . '/../..' . '/models/Users.php',
     );
 

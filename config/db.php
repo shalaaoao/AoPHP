@@ -6,5 +6,5 @@ return [
     'dbname' => 'lv56',
     'options' => null,
     'username' => 'root',
-    'password' => '',
+    'password' => 'cja19950715',
 ];

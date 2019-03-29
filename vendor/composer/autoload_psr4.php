@@ -8,5 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     'NoahBuscher\\Macaw\\' => array($vendorDir . '/noahbuscher/macaw'),
     'AoPHP\\PDO\\' => array($vendorDir . '/biaoqianwo/simple-pdo/src'),
-    'AoPHP\\' => array('/'),
+    'AoPHP\\' => array($baseDir . '/'),
 );

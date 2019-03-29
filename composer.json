@@ -16,10 +16,11 @@
     "autoload": {
        "classmap": [
            "controllers",
-           "models"
+           "models",
+           "views"
        ],
         "psr-4": {
-            "AoPHP\\": "/"
+            "AoPHP\\": ""
         }
     }
 }
