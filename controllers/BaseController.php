@@ -11,7 +11,6 @@ class BaseController
     public function __construct()
     {
         $this->setSmarty();
-        $this->setDB();
     }
 
     //设置Smarty
@@ -28,12 +27,5 @@ class BaseController
 
         //设置模板文件路径
         $this->smarty->setTemplateDir(__DIR__.'/../views/');
-    }
-
-    //设置DB
-    public function setDB()
-    {
-        //加载数据库配置文件
-        Model::config(require_once __DIR__ . '/../config/db.php');
     }
 }

@@ -12,7 +12,8 @@
     "require": {
         "noahbuscher/macaw": "dev-master",
         "biaoqianwo/simple-pdo": "^1.2",
-        "smarty/smarty": "^3.1"
+        "smarty/smarty": "^3.1",
+        "vlucas/phpdotenv": "^3.3"
     },
     "autoload": {
        "classmap": [

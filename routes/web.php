@@ -1,7 +1,5 @@
 <?php
 use NoahBuscher\Macaw\Macaw;
-use \AoPHP\PDO\Model;
-
 
 Macaw::get('/', function(){
     echo 'Welcome to AoPHP';
