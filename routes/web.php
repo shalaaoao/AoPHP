@@ -1,16 +1,9 @@
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors', '1');
-
-require_once __DIR__ . '/vendor/autoload.php';
-
 use NoahBuscher\Macaw\Macaw;
 use \AoPHP\PDO\Model;
 
-Model::config(require_once __DIR__ . '/config/db.php');
 
 Macaw::get('/', function(){
-    new \AoPHP\Controllers\TestsController();
     echo 'Welcome to AoPHP';
 });
 
