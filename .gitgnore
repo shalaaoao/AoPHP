@@ -1,3 +1,4 @@
-config/db.php
-.idea
-vendor
+/config/db.php
+/vendor
+/.idea
+g
